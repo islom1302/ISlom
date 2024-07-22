@@ -1,0 +1,90 @@
+#mainpage {
+    background-color: skyblue;
+    background-image: url('https://assets.annahar.com/ContentFilesArchive/354885Image1.jpg?version=2274913');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+
+#logo {
+    position: relative;
+    border-radius: 30px;
+    margin-bottom: 40px;
+    top: 20px;
+    height: 120px;
+    width: 140px;   
+}
+
+.logo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+li {
+    list-style: none;
+    border: 1px solid;
+    border-style: none;
+    border-radius: 30px;
+    color: white;
+}
+
+#home {
+
+    font-family: "Raleway", sans-serif;
+}
+
+.kiyimlar-jadvali {
+    font-family: "Roboto Mono", "Roboto Mono", monospace;
+    position: relative;
+    display: flex;
+    max-width: 450px;
+    height: 500px;
+    gap: 30px;
+    margin-top: 50px;
+}
+
+.jadval {
+    padding: 5px 120px;
+    -webkit-text-stroke: 1px black;
+    font-size: 25px;
+    padding-top: 220px;
+    color: gold;
+    font-weight: bold;
+    background-position: center;
+    background-size: cover;
+}
+
+a {
+    color: gold;
+    text-decoration: none;
+}
+
+a:hover {
+    color: blue;
+}
+
+#Erkaklar {
+    background-image: url('https://i.pinimg.com/originals/7f/72/ba/7f72ba89a6199a05e082141cedda7d1a.jpg')
+}
+
+#Ayollar {
+    background-image: url('https://mixsp.ru/files/fa5/fa5d83123013127cb81ab4f12f6f885f.jpg');
+}
+
+#Bolalar {
+    background-image: url('https://sun1-90.userapi.com/s/v1/if1/rTJvgyYAET0LYWufFtZPC6ijO4TCaPaBe3Xvw181hVTDLJjN2XXhv3W7rx5dcsomeRslHOi-.jpg?size=1188x1200&quality=96&crop=408,0,1188,1200&ava=1');
+}
+
+#Chaqaloqlar {
+    background-image: url('https://cuddle-cradle.com/cdn/shop/articles/Baby_Winter_Clothes_Pakistan.jpg');
+}
+
+@media (max-width: 1200px) {
+    .kiyimlar-jadvali {
+        flex-direction: column;
+        height: 
+    }
+}
